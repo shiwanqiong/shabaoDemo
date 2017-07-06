@@ -1,0 +1,103 @@
+body{
+  background:#f5f6f8;
+}
+.list{
+  margin-top:0.2rem;
+  background: #fff;
+}
+.list li{
+  margin-left:0.3rem;
+  padding:0.3rem 0.76rem 0.3rem 0;
+  font-size: 0.3rem;
+  border-bottom: 1px solid #dbdbdb;
+  position:relative;
+}
+.list li a{
+  display: inline-block;
+  width:100%;
+  height:100%;
+  color:#403e3e;
+}
+.item-list span{
+  float:right;
+  color:#ccc;
+  margin-right: 0.3rem;
+}
+/*钱包明细相关css*/
+.sum-up{
+  background:#0ea2e5;
+  text-align: center;
+  color:#fff;
+}
+.total{
+  padding:0.5rem 0;
+  font-size: 0.54rem;
+  font-weight: bold;
+}
+.total .money-title{
+  font-size: 0.24rem;
+  margin-bottom: 0.3rem;
+}
+.balance>div{
+  width:50%;
+  font-size:0.32rem;
+  margin:0.4rem auto 0.3rem;
+}
+.balance .money-title{
+  margin-bottom:0.2rem;
+  font-size:0.2rem;
+}
+.detail-title{
+  border-bottom: 1px solid #dbdbdb;
+  padding:0.3rem;
+  font-size:0.3rem;
+  font-weight: bold;
+}
+.item-name{
+  font-size:0.32rem;
+  color:#403e3e;
+  margin-bottom: 0.3rem;
+}
+.date{
+  float:right;
+  font-size:0.2rem;
+  color:#ccc;
+}
+.item-money{
+  font-size:0.28rem
+}
+.account{
+  float:right;
+  font-weight: bold;
+  color:#2660ad;
+}
+.operate{
+  width:100%;
+  position:fixed;
+  left:0;
+  bottom:0;
+  z-index:2016;
+}
+.operate a{
+  width:50%;
+  float:left;
+  height:0.94rem;
+  line-height: 0.94rem;
+}
+.list .no-border{
+  border:0;
+}
+.btn-nobg {
+  background:#fff;
+}
+
+span.arrowRight {
+  position: absolute;
+  width: 0.27rem;
+  height: 0.3rem;
+  right: 0.3rem;
+  top: 0.36rem;
+  background: url('/static/images3/right.png') no-repeat;
+  background-size: cover;
+  margin:0;
+}

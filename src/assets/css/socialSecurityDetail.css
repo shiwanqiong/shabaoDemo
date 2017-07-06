@@ -1,0 +1,45 @@
+/*
+Error: Invalid GBK character "\xE4"
+        on line 23 of socialSecurityDetail.scss
+
+18:   font-size:0.2rem;
+19:   text-align: center;
+20:   color:#ccc;
+21:   position:relative;
+22: }
+23: /* 个人社保 *\/
+24: .social-process dl{
+25:   width:33.33%;
+26: }
+27: .pay-process dt{
+28:   width:0.36rem;
+
+Backtrace:
+socialSecurityDetail.scss:23
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/util.rb:1300:in `rescue in block in find_encoding_error'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/util.rb:1297:in `block in find_encoding_error'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/util.rb:1296:in `each'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/util.rb:1296:in `each_with_index'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/util.rb:1296:in `find_encoding_error'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/util.rb:905:in `check_sass_encoding'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:436:in `check_encoding!'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:392:in `_to_tree'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin.rb:82:in `update_stylesheets'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:51:in `process_result'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+D:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/bin/scss:13:in `<top (required)>'
+D:/Ruby22-x64/bin/scss:23:in `load'
+D:/Ruby22-x64/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid GBK character \"\xE4\"\A         on line 23 of socialSecurityDetail.scss\A \A 18:   font-size:0.2rem;\A 19:   text-align: center;\A 20:   color:#ccc;\A 21:   position:relative;\A 22: }\A 23: /* 个人社保 */\A 24: .social-process dl{\A 25:   width:33.33%;\A 26: }\A 27: .pay-process dt{\A 28:   width:0.36rem;"; }

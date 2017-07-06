@@ -1,0 +1,117 @@
+body {
+  font-size: 0.26rem;
+  color: #403e3e; }
+
+input[type=radio] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 0.76rem;
+  height: 0.76rem;
+  border: 1px solid #d0d0d0;
+  border-radius: 0.38rem;
+  margin-top: 0.25rem; }
+
+input[type=radio]:checked {
+  border: none;
+  background: url("/static/images3/checkedIcon.png") no-repeat;
+  background-size: cover; }
+
+.titleH {
+  padding-left: 0.3rem;
+  line-height: 0.75rem;
+  background-color: #f5f6f8;
+  font-size: 0.26rem;
+  font-weight: normal; }
+
+.insurerList {
+  padding-left: 0.3rem;
+  background-color: #ffffff; }
+
+.insurerList li {
+  position: relative;
+  overflow: hidden; }
+
+.baseInfo {
+  font-size: 0.28rem;
+  color: #403e3e; }
+
+.stopInfo {
+  padding: 0.35rem 0.8rem 0.4rem 0; }
+
+.stopType, .stopDate > div {
+  margin-top: 0.3rem;
+  display: none; }
+
+.arrowRight {
+  position: absolute;
+  width: 0.24rem;
+  height: 0.27rem;
+  right: 0.3rem;
+  top: 0.4rem;
+  background: url("/static/images3/right.png") no-repeat;
+  background-size: cover; }
+
+.stopType.choose, .stopDate > div.choose {
+  display: block; }
+
+p.col-8, p.col-7 {
+  text-align: right; }
+
+select {
+  border: none;
+  font-size: 0.26rem; }
+
+.stopChoose {
+  width: 60%; }
+
+.stopBtn {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
+#nullMsg {
+  margin-top: 40%; }
+
+#null dd {
+  font-size: 0.32rem;
+  color: #cccccc;
+  text-align: center;
+  margin-top: 0.6rem; }
+
+#null dl {
+  overflow: hidden; }
+
+#null dt {
+  width: 33.3%;
+  margin: 0 auto; }
+
+dt img {
+  width: 100%; }
+
+.search {
+  padding: 0.3rem 0.6rem;
+  background-color: #ffffff;
+  position: relative; }
+
+.search input {
+  height: 0.62rem;
+  line-height: 0.62rem;
+  border: 1px solid #d6d6d6;
+  padding-left: 0.25rem;
+  border-radius: 0.06rem;
+  background-color: #f5f6f8;
+  font-size: 0.22rem;
+  width: 100%; }
+
+.searBtn {
+  width: 0.4rem;
+  height: 0.44rem;
+  display: block;
+  position: absolute;
+  background: url("/static/images3/search.png") no-repeat;
+  background-size: 100%;
+  right: 0.9rem;
+  top: 0.43rem; }
+
+/*# sourceMappingURL=stopInsurer.css.map */

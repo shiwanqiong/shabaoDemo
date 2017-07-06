@@ -1,0 +1,85 @@
+body {
+  background: #f5f6f8; }
+
+.list {
+  background: #fff;
+  margin-top: 0.2rem;
+  padding: 0 0.3rem; }
+
+.query-list li {
+  height: 0.96rem;
+  line-height: 0.96rem;
+  font-size: 0.3rem;
+  border-bottom: 1px solid #dbdbdb;
+  background: url("/static/images3/down.png") no-repeat center right; }
+
+.query-list a {
+  color: #403e3e; }
+
+.tip {
+  color: #ccc;
+  margin-right: 0.3rem; }
+
+.query-result {
+  color: #403e3e;
+  width: 100%; }
+
+.date {
+  height: 0.96rem;
+  line-height: 0.96rem;
+  font-size: 0.2rem;
+  padding: 0 0.3rem; }
+
+.info-detail {
+  padding: 0.3rem;
+  font-size: 0.32rem;
+  background: #fff; }
+
+.name {
+  margin-bottom: 0.3rem; }
+
+.money {
+  font-size: 0.3rem; }
+
+.result-tip {
+  padding-top: 0.3rem; }
+
+.resubmit {
+  background: #fff;
+  padding: 0.3rem 0.3rem;
+  border-top: 1px solid #dbdbdb; }
+
+.resubmit-btn {
+  color: #2660ad;
+  display: inline-block;
+  padding: 0.2rem;
+  font-size: 0.3rem;
+  border-radius: 0.06rem;
+  border: 2px solid #2660ad; }
+
+.fail {
+  color: #ea5504; }
+
+.success {
+  color: #2660ad; }
+
+.result-title {
+  font-size: 0.26rem;
+  height: 0.94rem;
+  line-height: 0.94rem;
+  padding: 0 0 0 0.3rem;
+  background: url("/static/images3/down.png") no-repeat center right;
+  background-size: 0.28rem 0.28rem;
+  margin-right: 0.3rem; }
+
+/* .info-detail{
+    border-bottom: 1px solid #dbdbdb;
+} */
+.insure-time {
+  float: right;
+  font-size: 0.26rem; }
+
+.result {
+  color: #ea5504; }
+
+/*# sourceMappingURL=query.css.map */

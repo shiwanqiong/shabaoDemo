@@ -1,0 +1,253 @@
+body{
+  background:#f5f6f8;
+}
+.list{
+  background:#fff;
+  margin-bottom:0.2rem;
+}
+.insurer{
+  margin-bottom: 0;
+}
+.pay-process{
+  padding:0.35rem 0.3rem;
+  margin-bottom:0;
+}
+.pay-process dl{
+  float:left;
+  width:25%;
+  font-size:0.2rem;
+  text-align: center;
+  color:#ccc;
+  position:relative;
+}
+/* 个人社保 */
+.social-process dl{
+  width:33.33%;
+}
+.pay-process dt{
+  width:0.36rem;
+  height:0.36rem;
+  margin:0 auto;
+  margin-bottom: 0.26rem;
+}
+.pay-process dt img{
+  width:100%;
+  height:100%;
+}
+.pay-process .line{
+  position:absolute;
+  width:40%;
+  height:0.02rem;
+  background:#d9d9d9;
+  top:30%;
+  right:-20%;
+}
+.pay-process .finished{
+  color:#2660ad;
+}
+.pay-process .line-finished{
+  background:#2660ad;
+}
+.chk input{
+  margin-right: 0;
+  vertical-align: middle;
+}
+.all-select span,.insurer-list span{
+  display:inline-block;
+}
+.insurer-list span{
+  vertical-align:middle;
+}
+.insurer-list .buyType{
+  text-indent:0.1rem;
+}
+.all-txt{
+  position:absolute;
+  left:0.3rem;
+  top:0;
+  display: inline-block;
+  font-size:0.28rem;
+}
+.chk{
+  font-size:0.28rem;
+  position:absolute;
+  left:0.3rem;
+  top:0.3rem;
+}
+.all-select .chk{
+  font-size:0.28rem;
+  margin-left:2.2em;
+}
+.name{
+  width:30%;
+}
+.buyType{
+  width:50%;
+}
+.insurer-list .abstract{
+  font-size:0.3rem;
+  color:#4d4d4d;
+  padding:0.18rem 0 0;
+}
+.abstract .insurer-info{
+  background:url("/static/images3/down.png") no-repeat right center;
+  background-size:0.28rem 0.28rem;
+}
+.buyType select{
+  width:100%;
+  border:0;
+  outline:0;
+  background: #fff;
+  font-size:0.3rem;
+  color:#2660ad;
+}
+.buyType option{
+  font-size:0.3rem;
+}
+.p-title{
+  height:0.94rem;
+  line-height:0.94rem;
+  color:#8c8c8d;
+  font-size:0.28rem;
+  padding:0 0.3rem;
+  border-top:1px solid #dbdbdb;
+}
+.insurer-list{
+  border-bottom:1px solid #dbdbdb;
+}
+.insurer-list li{
+  font-size: 0.28rem;
+  position:relative;
+}
+/* �̱�ѡ��α��� */
+.insurer-list .sbList{
+  line-height:1.2rem;
+}
+
+.sbList .abstract{
+  padding:0 0.3rem 0 0;
+}
+
+.chk1{
+  top:0;
+}
+
+.insurer-list li>div{
+  margin-left:1.34rem;
+  padding-right:0.3rem;
+  border-bottom:1px solid #c8c7cc;
+}
+.id-card{
+  font-size:0.26rem;
+  margin:0.2rem 0;
+}
+.detail-info{
+  color:#999;
+  font-size:0.20rem;
+  margin-right:0.3rem;
+  display:none;
+}
+.detail-info p{
+  margin-bottom:0.18rem;
+}
+.area{
+  width:53%;
+  float:left;
+}
+.base{
+  width:46%;
+  float:left;
+  text-align:right;
+}
+input.social-security{
+  width:50%;
+  float:right;
+  height:0.96rem;
+  line-height: 0.96rem;
+  text-align: right;
+  border:0;
+  outline: 0;
+  font-size:0.3rem;
+  color:#929292;
+  background-color: transparent;
+  padding:0;
+}
+.select-time li{
+  position:relative;
+  height:0.96rem;
+  line-height: 0.96rem;
+  padding:0 0.3rem;
+  border-bottom:1px solid #dbdbdb;
+  font-size:0.3rem;
+  color:#403e3e;
+}
+.select-time .time-title{
+  font-size: 0.32rem;
+  color:#262525;
+}
+.no-border{
+  border-bottom:0;
+}
+.operator{
+  width:90.625%;
+  margin:0.85rem auto 10px;
+}
+.operate{
+  width:100%;
+}
+
+input[type=checkbox]{
+  appearance: none;
+  -webkit-appearance: none;
+  width:0.64rem;
+  height:0.64rem;
+  background:url("/static/images3/checkIcon1.png") no-repeat center center;
+  background-size:0.64rem 0.64rem;
+  outline:0;
+  border:0;
+}
+input[type=checkbox]:checked{
+  background:url("/static/images3/checkedIcon1.png") no-repeat center center;
+  background-size:0.64rem 0.64rem;
+}
+.all{
+  height:1.36rem;
+  line-height:1.36rem;
+  position:relative;
+  border-bottom: 1px solid #dbdbdb;
+}
+.all .chk{
+  top:0;
+}
+.allSelect{
+  vertical-align:middle;
+}
+.all label{
+  font-size:0.3rem;
+  margin-left:1.34rem;
+}
+.workType{
+  padding:0.32rem 0.3rem;
+}
+.workType a{
+  color:#2660ad;
+}
+.workTypeCont{
+  font-size:0.32rem;
+}
+.warn-tip{
+  color:#999;
+  font-size:0.26rem;
+}
+.workTypeSelect{
+  float:right;
+  height:0.24rem;
+  line-height:0.24rem;
+}
+.workTypeSelect input{
+  display:inline-block;
+  vertical-align:middle;
+  margin:0;
+  padding:0;
+  margin-right:0.08rem;
+}

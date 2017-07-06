@@ -1,0 +1,240 @@
+body{
+  background: #f5f6f8;
+}
+.package-img{
+  width:100%;
+}
+.package-img img{
+  width:100%;
+}
+.list{
+  background:#fff;
+  padding:0  0;
+  margin-bottom:0.2rem;
+}
+.list-special{
+  padding-top:0.4rem;
+  background: #fff;
+  padding:0.4rem 0.3rem 0;
+}
+.package-introduce .row{
+  padding-bottom:0.2rem;
+  margin:0;
+}
+.discount{
+  display:inline-block;
+  padding:0.04rem 0.08rem;
+  float:left;
+  font-size:0.28rem;
+  margin-left:0.3rem;
+}
+.border-blue{
+  color:#2660ad;
+  border:1px solid #2660ad;
+}
+.border-orange{
+  color:#ea5504;
+  border:1px solid #ea5504;
+}
+.discount-icon{
+  display: inline-block;
+  width:0.44rem;
+  height:0.44rem;
+  background: url("/static/images3/discount.png") no-repeat center center;
+  background-size: 0.44rem 0.44rem;
+}
+.service-fee{
+  font-size:0.28rem;
+  color:#ea5504;
+}
+.package-introduce.img-list{
+  background: #fff;
+  margin-bottom:0.2rem;
+}
+.img-list img{
+  width:100%;
+  height:1.2rem;
+}
+.select-item{
+  font-size:0.32rem;
+  height:0.96rem;
+  line-height:0.96rem;
+  padding:0 0.3rem;
+  border-bottom:1px solid #dbdbdb;
+}
+.select-item>p{
+  color:#403e3e;
+}
+.select-items{
+  font-size:0.32rem;
+  padding:0.32rem 0.3rem;
+  border-bottom:1px solid #dbdbdb;
+}
+
+input[type=text]{
+  width:3.64rem;
+  height:0.96rem;
+  background:transparent;
+  border:0;
+  outline:0;
+  text-align:right;
+}
+select{
+  height:100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  direction:rtl;
+  border:0;
+  outline:0;
+  font-size:0.32rem;
+  background:#fff;
+}
+.package-item{
+  width:3.64rem;
+}
+.package{
+  display:inline-block;
+  height:0.74rem;
+  line-height:0.74rem;
+  /*width:3.64rem;*/
+  border:1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom:0.2rem;
+  text-align:center;
+  color:#ccc;
+  font-size:0.3rem;
+}
+.p-title{
+  text-indent: 0.5rem;
+  font-size:0.32rem;
+  font-weight:normal;
+  color:#595757;
+  height:0.94rem;
+  line-height:0.94rem;
+  padding:0 0.3rem;
+  border-bottom:1px solid #d6d6d6;
+}
+.package-content{
+  display: flex;
+  padding:0.2rem 0 0;
+  justify-content: center;
+}
+.package-content li{
+  float:left;
+  padding:0 0.05rem;
+  flex: 1;
+}
+.package-content li dl{
+  text-align:center;
+  margin:0 auto;
+}
+.package-content li dt{
+  width:0.8rem;
+  height:0.8rem;
+  border-radius:50%;
+  margin:0 auto 0.26rem;
+}
+.package-content li img{
+  width:100%;
+}
+.package-content li dd{
+  font-size:0.24rem;
+  color:#595757;
+}
+.content{
+  padding:0.34rem 0.3rem 0.4rem;
+}
+.content p{
+  font-size:0.28rem;
+  line-height:0.4rem;
+  color:#595757;
+}
+.operate a{
+  float:left;
+  display:inline-block;
+  font-size:0.3rem;
+  color:#fff;
+  background: #dbdbdb;
+  width:50%;
+  height:0.94rem;
+  line-height:0.94rem;
+  text-align:center;
+}
+.operate a.total{
+  border-top:1px solid #dbdbdb;
+  color:#ea5504;
+  text-align:left;
+  text-indent: 0.3rem;
+  background: #fff;
+}
+.package-item a.current{
+  color:#ea5504;
+  border:1px solid #ea5504;
+}
+
+
+.tip-icon{
+  display: inline-block;
+  color:#fff;
+  padding:0 0.25rem;
+  background:#ea5504;
+  font-size:0.24rem;
+  height:0.42rem;
+  line-height:0.42rem ;
+  margin-left:0.2rem;
+  border-radius: 0.3rem;
+}
+.text-des{
+  padding:0.4rem 0.3rem 0.2rem;
+}
+.fee18{
+  font-size:0.3rem;
+}
+.operate a.abled{
+  background: #2660ad;
+}
+.operate18 a{
+  width:100%;
+
+}
+.fee35{
+  color:#2660ad;
+}
+.ensure-content>li{
+  padding:0.38rem 0 0.44rem;
+  border-bottom:1px solid #dbdbdb;
+}
+.ensure-content>li:last-child{
+  border:none;
+}
+.ensure-content p{
+  line-height: 0.46rem;
+}
+.ensure-content .ensure-money{
+  display: inline-block;
+  color:#2660ad;
+}
+.ensure-content .ensure-money1{
+  margin:0;
+  color:#2660ad;
+}
+.ensure-content .no-border{
+  border:0;
+  padding-bottom:0.8rem;
+}
+.no-border{
+  border:0;
+}
+.des-list{
+  background:#fff;
+}
+.circle{
+  display:inline-block;
+  width:0.05rem;
+  height:0.05rem;
+  border-radius:50%;
+  background:#595757;
+  margin-right:0.05rem;
+  vertical-align:middle;
+}

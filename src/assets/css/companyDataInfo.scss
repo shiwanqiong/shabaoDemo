@@ -1,0 +1,180 @@
+/*实名验证公共样式*/
+body{
+  background:#f5f6f8;
+}
+.headTip{
+  font-size:0.28rem;
+  text-align: center;
+  padding:0.32rem 0;
+  color:#e2b300;
+  background:#fff8de;
+}
+.tips{
+  height:0.96rem;
+  line-height:0.96rem;
+  display:none;
+  font-size:0.28rem;
+  color:red;
+  text-indent:0.3rem;
+}
+.finished-info{
+  color:#fff;
+  height:2.1rem;
+  padding:0.55rem 0 0.55rem 0.3rem;
+  width:100%;
+  background:url("/static/images3/company-bg.png") no-repeat center center;
+}
+.finished-info p{
+  text-indent:0.6rem;
+}
+.company-name{
+  font-size:0.32rem;
+  margin-bottom:0.3rem;
+  background:url("/static/images3/company-name.png") no-repeat left center;
+  background-size:0.34rem 0.34rem;
+}
+.company-busi_licence{
+  font-size:0.24rem;
+}
+.company-busi_licence span{
+  text-indent:0;
+  display:inline-block;
+  background:#f36518;
+  padding:0.05rem 0.2rem;
+  border-radius:0.3rem 0 0 0.3rem;
+}
+.list{
+  background: #fff;
+  font-size:0.28rem;
+  margin-bottom:0.2rem;
+}
+.list li{
+  margin-left:0.3rem;
+  height:0.96rem;
+  line-height: 0.96rem;
+  border-bottom: 1px solid #dbdbdb;
+  overflow: hidden
+}
+.list .no-border{
+  border:0;
+}
+.list li input{
+  margin-right:0.3rem;
+  text-align: right;
+  border:0;
+  font-size:0.28rem;
+  background:#fff;
+  outline:0;
+}
+.enterPriseName{
+  font-size: 0.26rem;
+}
+.next{
+  margin-top:4.3rem;
+  width:84%;
+}
+
+/*企业完善资料*/
+.about-img{
+  padding:0.32rem 0.3rem 0.04rem;
+}
+.img-tip{
+  font-size:0.28rem;
+  color:#ccc;
+  margin-bottom: 0.44rem;
+}
+.img-list{
+  width:33.33%;
+  float:left;
+  text-align: center;
+}
+.img-list .imgContent{
+  position: relative;
+}
+.img-list img{
+  display: inline-block;
+  width:95%;
+}
+.img-list input[type=file]{
+  position:absolute;
+  top:0;
+  left:0;
+  width:95%;
+  height:1.4rem;
+  opacity: 0;
+  filter:alpha(opacity = 0);
+}
+.contract{
+  height:0.42rem;
+  line-height: 0.42rem;
+  text-align: center;
+  font-size:0.28rem;
+  margin:0.7rem 0 0.64rem;
+}
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 0.94rem;
+  line-height: 0.94rem;
+  border:0;
+  outline:0;
+  font-size:0.28rem;
+  direction: rtl;
+  background:#fff;
+}
+/*线下汇款相关样式*/
+.warn-tip{
+  padding:0.32rem 0.3rem;
+  line-height: 0.35rem;
+  text-align:left;
+  font-size:0.24rem;
+}
+.account-detail li{
+  padding-right:0.3rem;
+}
+.account-detail .bank{
+  text-indent:0.6rem;
+  background-size: 0.44rem 0.42rem;
+}
+.account-detail .account{
+  color:#2660ad;
+}
+input[type=checkbox] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type=checkbox] {
+  width: 0.42rem;
+  height: 0.42rem;
+  background-size: 100%;
+  vertical-align: middle;
+}
+input[type=checkbox]:checked{
+  background-size: 100%;
+}
+.textRed{
+  height:0.96rem;
+  line-height:0.96rem;
+  font-size:0.32rem;
+  text-indent:0.3rem;
+  border-bottom:1px solid #dbdbdb;
+  display:none;
+}
+.revisable{
+  display:inline-block;
+  height:0.94rem;
+  float:right;
+  padding-right:0.4rem;
+  background:url("/static/images3/more.png") no-repeat right center;
+  background-size:0.28rem 0.28rem;
+  margin-right:0.3rem;
+  color:#595757;
+}
+.pickMonth{
+  width:50%;
+}
+.textDes{
+  margin:0.3rem 0 0.2rem;
+}

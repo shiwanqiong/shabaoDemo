@@ -1,0 +1,84 @@
+.container {
+  padding: 0 0.6rem; }
+
+.row {
+  margin-bottom: 0.3rem; }
+
+#logForm {
+  margin-top: 1.55rem;
+  margin-bottom: 2.24rem;
+  overflow: hidden; }
+
+#mobileNo, #password {
+  padding-left: 0.87rem; }
+
+.relaRow {
+  position: relative; }
+
+.linkBtn {
+  position: absolute;
+  right: 0;
+  padding-right: 0.34rem;
+  top: 0;
+  line-height: 0.94rem;
+  font-size: 0.26rem; }
+
+.logIcon {
+  position: absolute;
+  width: 0.35rem;
+  height: 0.38rem;
+  top: 0.27rem;
+  left: 0.27rem;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+#phone {
+  background-image: url("../../../static/images3/phone.png"); }
+
+#lock {
+  background-image: url("../../../static/images3/lock.png"); }
+
+.proto {
+  text-align: right;
+  font-size: 0.24rem;
+  color: #595757; }
+
+#regForm {
+  margin-top: 0.6rem;
+  height: 7.40rem; }
+
+.proto label {
+  color: #595757;
+  vertical-align: middle; }
+
+#tab {
+  height: 0.94rem;
+  background-color: #fff;
+  border: 1px solid #dbdbdb; }
+
+#tab li {
+  line-height: 0.94rem;
+  color: #585757;
+  font-size: 0.32rem;
+  text-align: center; }
+
+#tab li.active {
+  color: #2660ad;
+  border-bottom: 0.06rem solid #2660ad;
+  line-height: 0.88rem; }
+
+.verticalLine {
+  width: 0;
+  border: 0.01rem solid #dbdbdb;
+  height: 0.45rem;
+  position: absolute;
+  right: 1.86rem;
+  top: 0.25rem; }
+
+input[type=text] {
+  text-align: left;
+  width: 100%;
+  border: 1px solid #dbdbdb; }
+
+/*# sourceMappingURL=userReg.css.map */

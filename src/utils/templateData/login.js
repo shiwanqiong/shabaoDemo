@@ -1,0 +1,61 @@
+/**
+ * Created by Administrator on 2017/4/28.
+ */
+export const userInfo={
+  "user_id":'10001499',
+  'reg_channel':'1',
+  'user_type':'1',
+  'character':'01',
+  'user_nname':'',
+  'enterprise_name':'广州坚基商业管理有限公司',
+  'sex':'1',
+  'mobile_no':'13719108450',
+  'emial':'545026504@qq.com',
+  'login_pwd':'a906449d5769fa7361d7ecc6aa3f6d28',
+  'trans_pwd':'2c8fc83af046bea446f3b95b3a6a3255',
+  'apply_status':'01',
+  'user_status':'00',
+  'reg_time':'20160629100051',
+  'update_time':'',
+  'recommend_code':'2433',
+  'info_flag':'1',
+  'auth_flag':'2',
+  'contract_status':'1',
+  'credit_error_num':0,
+  'residual_premiums':'1',
+  'effective_state':'',
+  'company_address':'',
+  'contacts':'',
+  'invitation_code':'',
+  'wait_status':'00'
+}
+/*
+export const userInfo={
+  "user_id":'10000000',
+  'reg_channel':'1',
+  'user_type':'1',
+  'character':'01',
+  'user_nname':'',
+  'enterprise_name':'广州坚基商业管理有限公司',
+  'sex':'1',
+  'mobile_no':'13719108450',
+  'emial':'545026504@qq.com',
+  'login_pwd':'a906449d5769fa7361d7ecc6aa3f6d28',
+  'trans_pwd':'2c8fc83af046bea446f3b95b3a6a3255',
+  'apply_status':'01',
+  'user_status':'00',
+  'reg_time':'20160629100051',
+  'update_time':'',
+  'recommend_code':'2433',
+  'info_flag':'2',
+  'auth_flag':'2',
+  'contract_status':'2',
+  'credit_error_num':0,
+  'residual_premiums':'1',
+  'effective_state':'',
+  'company_address':'',
+  'contacts':'',
+  'invitation_code':'',
+  'wait_status':'00'
+}
+*/

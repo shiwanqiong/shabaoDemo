@@ -1,0 +1,49 @@
+header,nav,section{
+  width:100%;
+  height:auto;
+  padding:0.3rem;
+  /* margin:0.25rem auto; */
+}
+header,nav{
+  padding-bottom:0;
+}
+h1.head{
+  font-size: 0.36rem;
+  color:#1a1a1a;
+  font-weight: normal;
+  /*  padding-bottom: 10px; */
+}
+p.headP{
+  font-size: 0.24rem;
+  color: #0164e3;
+  padding-top:0.3rem;
+}
+.para p{
+  font-size: 0.24rem;
+  color:#5d5d5d;
+  line-height: 0.4rem;
+  margin-bottom: 0.35rem;
+  /* text-align:justify;
+  text-align-last:justify; */
+}
+.para h3{
+  font-size: 0.26rem;
+  font-weight: normal;
+  line-height: 0.42rem;
+  margin: 0.4rem auto;
+  color:#1a1a1a;
+}
+.para .paraImg{
+  margin: 0.4rem auto;
+  text-align: center;
+}
+.col-12{
+  width:5.8rem;
+  height:3rem;
+  display:inline-block;
+  margin:0 auto;
+}
+.col-12 img{
+  width:100%;
+  height:100%;
+}
