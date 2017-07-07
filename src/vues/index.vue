@@ -44,14 +44,14 @@
         ],
         proLists:[
           [
-            {proImgSrc:'/static/images3/sb18.jpg',path:'sb18Detail'},
+            {proImgSrc:'./static/images3/sb18.jpg',path:'sb18Detail'},
           ],
           [
-            {proImgSrc:'/static/images3/sb48.png',path:'sb48Detail'},
+            {proImgSrc:'./static/images3/sb48.png',path:'sb48Detail'},
           ],
           [
-            {proImgSrc:'/static/images3/sb48.png',path:'sb48Detail'},
-            {proImgSrc:'/static/images3/sb18.jpg',path:'sb18Detail'},
+            {proImgSrc:'./static/images3/sb48.png',path:'sb48Detail'},
+            {proImgSrc:'./static/images3/sb18.jpg',path:'sb18Detail'},
           ]
 
         ],
