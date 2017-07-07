@@ -1,9 +1,9 @@
 <template>
   <swiper :options="swiperOption" >
     <!-- slides -->
-    <swiper-slide><img src="./static/images3/banner2.png"></swiper-slide>
-    <swiper-slide><img src="./static/images3/banner.png"></swiper-slide>
-    <swiper-slide><img src="./static/images3/banner2.png"></swiper-slide>
+    <swiper-slide><img src="../../static/images3/banner2.png"></swiper-slide>
+    <swiper-slide><img src="../../static/images3/banner.png"></swiper-slide>
+    <swiper-slide><img src="../../static/images3/banner2.png"></swiper-slide>
     <!-- Optional controls -->
     <div class="swiper-pagination"  slot="pagination">
     </div>
