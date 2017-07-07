@@ -16,8 +16,8 @@
     data(){
       return{
         proLists:[
-          {proImgSrc:'/static/images3/sb481.png'},
-          {proImgSrc:'/static/images3/sb181.png'}
+          {proImgSrc:'./static/images3/sb481.png'},
+          {proImgSrc:'./static/images3/sb181.png'}
         ]
       }
     },

@@ -22,12 +22,12 @@
     data(){
       return{
         proLists:[
-          {proImgSrc:'/static/images3/sb10.png',proPrice:'保费：10元/人/月',proName:'沙包10号',id:'sb10'},
-          {proImgSrc:'/static/images3/sb42.png',proPrice:'保费：42元/人/月',proName:'沙包42号',id:'sb42'},
-          {proImgSrc:'/static/images3/sb35.png',proPrice:'保费：35元/人/月',proName:'沙包35号',id:'sb35'},
-          {proImgSrc:'/static/images3/sb65.png',proPrice:'保费：65元/人/月',proName:'沙包65号',id:'sb65'},
-          {proImgSrc:'/static/images3/sb118.png',proPrice:'保费：118元/人/月',proName:'沙包118号',id:'sb118'},
-          {proImgSrc:'/static/images3/sb15.png',proPrice:'保费：15元/人/月',proName:'沙包15号',id:'sb15'}
+          {proImgSrc:'./static/images3/sb10.png',proPrice:'保费：10元/人/月',proName:'沙包10号',id:'sb10'},
+          {proImgSrc:'./static/images3/sb42.png',proPrice:'保费：42元/人/月',proName:'沙包42号',id:'sb42'},
+          {proImgSrc:'./static/images3/sb35.png',proPrice:'保费：35元/人/月',proName:'沙包35号',id:'sb35'},
+          {proImgSrc:'./static/images3/sb65.png',proPrice:'保费：65元/人/月',proName:'沙包65号',id:'sb65'},
+          {proImgSrc:'./static/images3/sb118.png',proPrice:'保费：118元/人/月',proName:'沙包118号',id:'sb118'},
+          {proImgSrc:'./static/images3/sb15.png',proPrice:'保费：15元/人/月',proName:'沙包15号',id:'sb15'}
         ]
       }
     },
