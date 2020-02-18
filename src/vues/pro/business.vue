@@ -33,6 +33,9 @@
     },
     components:{
       vFoot
+    },
+    mounted() {
+      console.log('the first change')
     }
   }
 </script>
