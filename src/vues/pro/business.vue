@@ -34,6 +34,9 @@
     components:{
       vFoot
     },
+    created() {
+      console.log('the sec change')
+    },
     mounted() {
       console.log('the first change')
     }
