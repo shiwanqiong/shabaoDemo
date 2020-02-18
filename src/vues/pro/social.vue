@@ -23,6 +23,9 @@
     },
     components:{
       vFoot
+    },
+    created() {
+      console.log('the third change')
     }
   }
 </script>
